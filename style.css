@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.calculator{
+ 
+  height:  654px;
+background-color: #d8dede;
+background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+
+}
+
+.content{
+
+  width: 305px;
+  height: 580px;
+  background-color: whitesmoke;
+
+  margin: 0 auto;
+  top: 40px;
+  position: relative;
+  border-radius: 12px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+
+
+}
+
+
+.display{
+ 
+  height: 190px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+
+}
+
+.input{
+text-align: right;
+height: 22px;
+margin: 0 20px;
+padding-top: 18px;
+font-size: 25px;
+font-weight: bold;
+color:palevioletred;
+
+}
+
+.output{
+
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+  padding-top: 5px;
+  color:   orange;
+
+}
+
+
+
+.keyboard{
+ 
+  height: 400px;
+  background-color:snow;
+  border-radius: 12px;
+  
+  
+
+}
+
+
+.operator ,.number, .nope{
+ 
+  width:50px;
+  height:50px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color:snow;
+  border: 2px solid snow;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 17px;
+
+
+}
+
+.operator ,.number{
+  cursor: pointer;
+}
+.operator:active ,.number:active{
+ font-size: 15px;
+}
+.operator:focus ,.number:focus , .nope:focus{
+
+  outline: 0;
+
+}
+
+button:nth-child(20){
+background-color: red;
+color:whitesmoke;
+}
+
+.desc{
+  
+  font-weight: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align:left;
+
+
+
+}
